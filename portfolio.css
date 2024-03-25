@@ -1,0 +1,211 @@
+
+/* Body of website properties */
+body {
+
+background-image: url("greybackground.jpg");
+
+background-attachment: fixed;
+font-family:text2;
+}
+/* End of body of website properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Introducing fonts */
+@font-face {
+	font-family: font3;
+	src: url(elainefont.ttf); 
+} 
+
+@font-face {
+    font-family: text2;
+    src: url(text2.otf);
+}
+/* End of introducing fonts */
+
+/* -----------------------------------------------------------------------------------------------*/
+/* Buttons for Task bar Properties */
+.button {
+    background-color:#585858;
+    border: white;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.button:hover {
+    background-color: lightpink;
+}
+/* End of button for task bar properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Div properties */
+
+div {
+    font-family:text2;
+	
+}
+/* End of Div properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Horizontal line properties */
+hr {
+height: 2px;
+
+background-color: gray;
+border: none;
+}
+/* End of Horizontal line properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Section properties */
+nav{
+  position:relative; 
+  text-align: center;
+  font-family:text2;
+  font-size: 18px;
+}
+/* End of section properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Footer properties */
+footer {
+  clear: both;
+  margin-bottom: 0;
+ 
+}
+/* End of footer properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Heading properties */
+h1 {
+	text-align:left;
+	font-size: 100px;
+	font-family:font3;
+	color:gray;
+}
+/* End of heading properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Paragraph properties */
+
+p {
+font-family:font3;
+font-size: 25px;
+text-align:center;
+}
+
+/* End of paragraph properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Button for cv download properties */
+.butn {
+	
+    text-align: center;
+    background-color: #c6bcff;
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin:auto;
+    display:block;
+}
+
+.butn:hover {
+    background-color: lightblue;
+}
+
+/* End of cv download properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Slideshow properties */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Numbers on the sideshow properties */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: center;
+  top: 0;
+}
+/* End of slideshow properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Social media button properties */
+.fa {
+  
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align:center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+  
+/* End of Social media button properties  */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* aside properties  */
+aside {
+
+	
+}
+
+/* End of aside properties */
+
+/* -----------------------------------------------------------------------------------------------*/
+
+/* Section properties */
+section {
+	 position:relative; 
+  text-align: right;
+} 
+
+/* End of Section properties */
+
+/* -----------------------------------------------------------------------------------------------*/

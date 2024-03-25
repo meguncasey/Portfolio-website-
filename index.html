@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+  <head> 
+       <title>Portfolio </title>
+	   <link rel="stylesheet" type="text/css" href="portfolio.css">
+	
+    </head>
+   
+  <a> Hello! Welcome to my website my name is: </a>
+
+<h1> 
+Megan Farrow
+<img src="mylogo.png" align ="right" height="150" width="150" >
+</h1> 
+
+ <br>
+ <hr/> 
+ 
+ <!-- --------------------------------------------------------------------- --> 
+ <!-- Start of Task bar --> 
+    <nav> <nobr>
+  <a href="aboutme.html" class="button">About me </a>
+  <a href="mywork.html" class="button">My Work</a>
+  <a href="mycv.html" class="button">My CV</a>
+  <a href="contactinfo.html" class="button">Contact Info</a>
+  <a href="index.html" class="button">Home page</a>
+  </nav> 
+<!-- End of task bar --> 
+
+ <!-- --------------------------------------------------------------------- --> 
+ 
+ <!-- Used for space horizontal lines --> 
+
+<br>
+<hr/>
+<!-- End of spacing for horizontal lines --> 
+
+<!-- --------------------------------------------------------------------- --> 
+ 
+<!-- Text contained within website --> 
+ <section>
+<p> Welcome to my website! </br>
+This website is made to show you a portfolio of myself. </br>
+Information of what is shown on the website can be shown on the task bar and you can click to see if interested. </br>
+I hope you enjoy :) 
+</p> 
+</section>
+<!-- End of text within website --> 
+ 
+
+ <!-- --------------------------------------------------------------------- --> 
+ 
+ <!-- Start of Slideshow properties --> 
+<article>
+	
+	<div class="slideshow-container">
+	
+    <div class="mypics">
+    <div class="numbertext">1 / 7</div>
+    <img src="snow.jpg" style="width:100%">
+ 
+  </div>
+
+  <div class="mypics">
+    <div class="numbertext">2 / 7</div>
+    <img src="humberbridge.jpg" style="width:100%">
+  
+  
+</div>
+  <div class="mypics">
+    <div class="numbertext">3 / 7</div>
+    <img src="wales1.jpg" height = "550" width = "1000" >
+   
+  </div>
+  <div class="mypics">
+    <div class="numbertext">4 / 7</div>
+    <img src="wales2.jpg" height = "550" width = "1000" >
+   
+  </div>
+  
+  <div class="mypics">
+    <div class="numbertext">5 / 7</div>
+    <img src="wales3.jpg" height = "550" width = "1000" >
+   
+  </div>
+  <div class="mypics">
+    <div class="numbertext">6 / 7</div>
+    <img src="weddingphoto.jpg" height = "550" width = "1000" >
+   
+  </div>
+ <div class="mypics">
+    <div class="numbertext">7 / 7</div>
+    <img src="woods.jpg" height = "550" width = "1000" >
+   
+  </div>
+<br>
+
+
+<!-- Java Script --> 
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mypics");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2999); 
+}
+</script>
+<!-- End of Java Script and Slideshow properties -->
+<!-- --------------------------------------------------------------------- --> 
+<!-- Social media side bar --> 
+
+ 
+<nav> 
+<strong> Social Media's! </strong>
+<br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.facebook.com/meganfarroww" class="fa fa-facebook"></a> 
+<a href="https://twitter.com/MegunCasey" class="fa fa-twitter"></a> 
+<a href="https://www.instagram.com/meguncasey/" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/c/MEGUNCASEY" class="fa fa-youtube"></a>
+
+</nav>  
+
+ 
+
+<!-- End of Social media side bar --> 
+
+<!-- --------------------------------------------------------------------- --> 
+
+</article> 
+ <!-- start of task bar at end of website -->
+
+	<footer>
+	<br>
+	   <hr/>
+	   
+
+    <nav> <nobr>
+ 
+  <a href="aboutme.html" class="button">About me </a>
+  <a href="mywork.html" class="button">My Work</a>
+  <a href="mycv.html" class="button">My CV</a>
+  <a href="contactinfo.html" class="button">Contact Info</a>
+  <a href="index.html" class="button">Home page</a>
+</nav> 
+   <br>
+   <hr/>
+	
+	</footer>
+<!-- end of task bar: at bottom of page-->
+   
+   
+ </html>-
